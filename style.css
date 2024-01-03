@@ -1,0 +1,389 @@
+* {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+display: flex;
+align-items: center;
+width: 100%;
+justify-content: space-between;
+box-shadow: 5px 10px 18px #888888;
+}
+.logo{
+    width: 8vw;
+    padding: 1vw;
+}
+
+.rightdiv{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.search{
+    position: relative;
+    width: 30%;
+}
+
+.search-box {
+    border-radius: 15px;
+width: 100%;
+height: 2.5vw;
+font-size: medium;
+border: none;
+background-color: gray;
+padding: 2% 7%;
+}
+
+::placeholder{
+    color: white;
+}
+
+.eyeglass {
+    width: 1.3vw;
+    position: absolute;
+    /* left: 73vw; */
+    left: 13vw;
+    top: 0.9vw;
+}
+
+.sign {
+   /* display: flex; */
+   display: contents;
+}
+
+.sign a{
+    cursor: pointer;
+    margin: 0;
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: black;
+}
+
+.bagimg {
+    width: 2vw;
+}
+.back-banner {
+    width: 100%;
+    margin-top: 1vw;
+}
+.logo-banner {
+    border-bottom: 2px solid gray;
+}
+
+
+.banner {
+    position: absolute;
+    top: 22vw;
+    left: 5vw;
+}
+
+
+.banner h1 {
+    font-size: 4vw;
+    color: #373836;
+}
+
+.banner h3 {
+    position: relative;
+    font-size: 2.5vw;
+    left: 8vw ;
+    margin-top: 2vw;
+    color: #373836;
+}
+
+.graydiv{
+    background-color: #373836;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.graydiv h1{
+    padding-top: 2%;
+    font-size: 3vw;
+    color: #FFFFFF;
+}
+.graydiv h2{
+    padding-bottom: 3%;
+    font-size: 3vw;
+}
+
+.shop-wm {
+    justify-content: center;
+    font-size: 1.5vw;
+    display: flex;
+    gap: 5%;
+    padding-bottom: 2%;
+}
+
+.shop-wm a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* .categories {
+    padding: 8%;
+    
+    
+}
+.category-box{
+   position: relative;
+   display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.tshirts{
+    margin-top: 12%;
+
+}
+.clear-rec{
+    z-index: 2;
+    position: absolute;
+    margin-top: -34vw;
+    left: 30px;
+} */
+
+.categoryhead{
+    font-size: 4vw;
+    margin-top: 10vw;
+    color: #373836;
+    margin-left: 10vw;
+}
+
+.categories{
+    position: relative;
+    margin-top: 7vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3vw;
+   margin-right: 50vw;
+   
+}
+
+/* .categories h2{
+    font-size: 4vw;
+    margin-bottom: 4vw; */
+    
+
+/* .cgrid{
+    position: relative;
+} */
+
+/* .cgrid {
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto auto auto auto
+} */
+
+/* .row{
+    display: flex;
+    width: 100%;
+} */
+
+.column{
+
+    width: 0vw;
+    padding-left: 25vw;
+}
+
+
+.column .c1{
+   position: relative;
+    width: 25vw;
+}
+
+.column .white{
+    
+    position: absolute;
+    top: 2vw;
+    left: 27vw;
+}
+
+.white2{
+    position: absolute;
+    top: 2vw;
+    left: 55vw;
+}
+.white3{
+    position: absolute;
+    left: 27vw;
+    bottom: 2vw;
+}
+.white4{
+    position: absolute;
+    left: 55vw;
+    bottom: 2vw;
+}
+
+
+
+
+.column .w1{
+    width: 21vw;
+}
+
+.column .plus{
+    position: absolute;
+    top: 0vw;
+    right: 1vw;
+}
+.plusimg{
+    width: 4vw;
+}
+
+.column .tags{
+    position: absolute;
+    bottom: 2vw;
+    left: 3vw;
+    font-size: 3vw;
+    color: #373836;
+}
+
+/* Offers */
+.offhead{
+    font-size: 4vw;
+    margin-top: 10vw;
+    margin-bottom: 7vw;
+    margin-left: 10vw;
+    color: #373836;
+   
+}
+
+.offer{
+    
+    position: relative;
+    
+}
+.offer img{
+    width: 35vw;
+}
+
+.offer p{
+    position: absolute;
+    top: 6vw;
+    left: 2vw;
+    color:#C2E3FD;
+    font-size: 2.3vw;
+}
+.offer button{
+    position: absolute;
+    bottom: 3vw;
+    left: 12vw;
+    font-size: 2vw;
+    padding: 9px;
+    border: 0;
+    background-color: #BECDBC;
+    border-radius: 4px;
+    font-weight: 100;
+    color: #105262;
+}
+.offer .hatbrands{
+    color: #F9FAFC;
+    padding: 1vw;
+}
+.offer .whitebtn {
+    background-color: #FAFAF8;
+    color: #040603;
+}
+.offer .allshirts {
+    color:#E8C7BB ;
+    padding: 1vw;
+}
+.offer .pinkgn {
+    background-color: #C4977F;
+    color: #FBFCFA;
+}
+/* .offer2 button{
+    position: absolute;
+    bottom: 3vw;
+    left: 12vw;
+    font-size: 2vw;
+    padding: 9px;
+    border: 0;
+    background-color: #BECDBC;
+    border-radius: 10px;
+    font-weight: 100;
+    color: #105262;
+} */
+
+.offer .allbottoms{
+    color:#F6F8F2 ;
+    padding: 1vw;
+}
+.offer .goldgn {
+      background-color:#ECA927 ;
+      color: #0D0F0C;
+}
+.offer1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2vw;
+    margin-left: 15vw;
+    margin-right: 11vw;
+}
+.offer h3{
+    position: absolute;
+    top: 2vw;
+    left: 5vw;
+    font-size: 4vw;
+    color: white;
+}
+.offer h4{
+    position: absolute;
+    color:#E8C7BB;
+    top: 2vw;
+    left: 5vw;
+    font-size: 4vw;
+}
+
+/* footer */
+
+.footer{
+    margin-top: 12vw;
+    background-color:#373836;
+}
+
+.table{
+    /* padding-left: 8vw; */
+    padding-top: 2vw;
+    color: #F6F8F2;
+   
+
+}
+.table th{
+    font-size: 1.3vw;
+    padding-left: 4vw;
+
+}
+.table td{
+    font-size: 1vw;
+    padding-left: 4vw;
+    padding-top: 1vw;
+}
+
+.iconfoot {
+    display: flex;
+padding-left: 87vw;
+}
+.footer p{
+    color: #F6F8F2;
+    padding-left:3vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    
+
+}
+.footer hr{
+    color: #888888;
+    width: 95vw;
+    height: .3px;
+  margin-left: 2.5vw;
+}
